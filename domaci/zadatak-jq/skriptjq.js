@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('form').addClass('stilForme');
     
     $('#sakrij').click(function(){
-        $('#kontakt').hide(1500);
+        $('#kontakt').hide(1000);
     });
 
     
@@ -14,7 +14,7 @@ $(document).ready(function(){
     $('#slika').append('<img src="ns.jpg" style="display:block">');
     
     $('#prikazi').click(function(){
-        $('#kontakt').toggle(1500);
+        $('#kontakt').toggle(500);
         
     });
                         
